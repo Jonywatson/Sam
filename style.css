@@ -215,10 +215,11 @@ h1 {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     background: rgba(52, 245, 197, 0.699);
     position: sticky;
-        z-index: 2;
+        z-index: 1;
         top: 0;
         left: 0;
         right: 0;
+        
 }
 ul {
     display: flex;
@@ -227,6 +228,7 @@ ul {
     margin: 0;
     padding: 0.5rem;
     justify-content: space-between;
+    margin-right: 2rem;
     align-items: center;
 
 }
