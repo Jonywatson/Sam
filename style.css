@@ -214,6 +214,11 @@ h1 {
     background-color: rgb(255, 255, 255);
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     background: rgba(52, 245, 197, 0.699);
+    position: sticky;
+        z-index: 2;
+        top: 0;
+        left: 0;
+        right: 0;
 }
 ul {
     display: flex;
