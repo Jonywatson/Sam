@@ -211,15 +211,15 @@ h1 {
     justify-content: space-between;
     align-items: center;
     padding: 0.3rem;
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-    background: rgba(52, 245, 197, 0.699);
+    background: black;
     position: sticky;
         z-index: 1;
         top: 0;
         left: 0;
         right: 0;
-        
+        color: #1be982;
 }
 ul {
     display: flex;
@@ -234,7 +234,7 @@ ul {
 }
 a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(241, 26, 116);
     font-size: 1.25rem;
     font-weight: 600;
 }
